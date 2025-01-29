@@ -55,12 +55,6 @@ build CMakeFiles/library_.dir/main.c.obj: C_COMPILER__library__unscanned_Debug C
   OBJECT_DIR = CMakeFiles\library_.dir
   OBJECT_FILE_DIR = CMakeFiles\library_.dir
 
-build CMakeFiles/library_.dir/library.c.obj: C_COMPILER__library__unscanned_Debug C$:/Users/Augusto/CLionProjects/library_/library.c || cmake_object_order_depends_target_library_
-  DEP_FILE = CMakeFiles\library_.dir\library.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\library_.dir
-  OBJECT_FILE_DIR = CMakeFiles\library_.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target library_
@@ -69,7 +63,7 @@ build CMakeFiles/library_.dir/library.c.obj: C_COMPILER__library__unscanned_Debu
 #############################################
 # Link the executable library_.exe
 
-build library_.exe: C_EXECUTABLE_LINKER__library__Debug CMakeFiles/library_.dir/main.c.obj CMakeFiles/library_.dir/library.c.obj
+build library_.exe: C_EXECUTABLE_LINKER__library__Debug CMakeFiles/library_.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\library_.dir

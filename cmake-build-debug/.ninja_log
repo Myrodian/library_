@@ -1,0 +1,4 @@
+# ninja log v6
+12	272	7598189078846480	build.ninja	f48d37c0eb646485
+24	95	7598189079766485	CMakeFiles/library_.dir/main.c.obj	6ddee36765225a53
+96	179	7598189080486495	library_.exe	689d0fd3ac98b43e

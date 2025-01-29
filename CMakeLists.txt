@@ -4,5 +4,4 @@ project(library_ C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(library_ main.c
-        library.c
-        library.h)
+)
