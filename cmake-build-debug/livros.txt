@@ -1,40 +1,40 @@
-1;Frankenstein;Mary Shelley;1818;acao;0;
-2;Dracula;Bram Stoker;1897;acao;0;
-3;O Nome da Rosa;Umberto Eco;1980;drama;0;
-4;O Codigo Da Vinci;Dan Brown;2003;acao;0;
-5;Jane Eyre;Charlotte Bronte;1847;ficcao;0;
-6;Moby Dick;Herman Melville;1851;acao;0;
-7;A Menina que Roubava Livros;Markus Zusak;2005;acao;0;
-8;O Morro dos Ventos Uivantes;Emily Bronte;1847;acao;0;
-9;As Cronicas de Narnia;C.S. Lewis;1950;acao;0;
-10;A Revolucao dos Bichos;George Orwell;1945;acao;0;
-11;Cem Anos de Solidao;Gabriel Garcia Marquez;1967;acao;0;
-12;Orgulho e Preconceito;Jane Austen;1813;acao;0;
-13;Harry Potter e a Pedra Filosofal;J.K. Rowling;1997;acao;0;
-14;O Pequeno Principe;Antoine de Saint-Exupery;1943;acao;0;
-15;O Senhor dos Aneis;J.R.R. Tolkien;1954;acao;0;
-16;Dom Casmurro;Machado de Assis;1899;acao;0;
-17;1984;George Orwell;1949;acao;0;
-18;O Alquimista;Paulo Coelho;1988;acao;0;
-19;A Ilha do Tesouro;Robert Louis Stevenson;1883;aventura;0;
-20;O Conde de Monte Cristo;Alexandre Dumas;1844;aventura;0;
-21;Os Miseraveis;Victor Hugo;1862;drama;0;
-22;Guerra e Paz;Leo Tolstoy;1869;historico;0;
-23;Crime e Castigo;Fyodor Dostoevsky;1866;drama;0;
-24;O Retrato de Dorian Gray;Oscar Wilde;1890;ficcao;0;
-25;O Apanhador no Campo de Centeio;J.D. Salinger;1951;drama;0;
-26;O Sol e para Todos;Harper Lee;1960;drama;0;
-27;O Grande Gatsby;F. Scott Fitzgerald;1925;drama;0;
-28;Mataram a Cotovia;Harper Lee;1960;drama;0;
-29;O Hobbit;J.R.R. Tolkien;1937;fantasia;0;
-30;A Divina Comedia;Dante Alighieri;1320;poesia;0;
-31;Odisseia;Homero;800 a.C.;epico;0;
-32;Ilíada;Homero;750 a.C.;epico;0;
-33;A Metamorfose;Franz Kafka;1915;ficcao;0;
-34;O Processo;Franz Kafka;1925;ficcao;0;
-35;O Estrangeiro;Albert Camus;1942;filosofico;0;
-36;A Revolucao dos Bichos;George Orwell;1945;satira;0;
-37;Admiravel Mundo Novo;Aldous Huxley;1932;ficcao;0;
-38;Fahrenheit 451;Ray Bradbury;1953;ficcao;0;
-39;O Sol Tambem se Levanta;Ernest Hemingway;1926;drama;0;
-40;É assim que acaba;Colleen Hoover;2018;drama;0;
+1;Frankenstein;Mary Shelley;1818;acao;0;none
+2;Dracula;Bram Stoker;1897;acao;0;none
+3;O Nome da Rosa;Umberto Eco;1980;drama;0;none
+4;O Codigo Da Vinci;Dan Brown;2003;acao;0;none
+5;Jane Eyre;Charlotte Bronte;1847;ficcao;0;none
+6;Moby Dick;Herman Melville;1851;acao;0;none
+7;A Menina que Roubava Livros;Markus Zusak;2005;acao;0;none
+8;O Morro dos Ventos Uivantes;Emily Bronte;1847;acao;0;none
+9;As Cronicas de Narnia;C.S. Lewis;1950;acao;0;none
+10;A Revolucao dos Bichos;George Orwell;1945;acao;0;none
+11;Cem Anos de Solidao;Gabriel Garcia Marquez;1967;acao;0;none
+12;Orgulho e Preconceito;Jane Austen;1813;acao;0;none
+13;Harry Potter e a Pedra Filosofal;J.K. Rowling;1997;acao;0;none
+14;O Pequeno Principe;Antoine de Saint-Exupery;1943;acao;0;none
+15;O Senhor dos Aneis;J.R.R. Tolkien;1954;acao;0;none
+16;Dom Casmurro;Machado de Assis;1899;acao;0;none
+17;1984;George Orwell;1949;acao;0;none
+18;O Alquimista;Paulo Coelho;1988;acao;0;none
+19;A Ilha do Tesouro;Robert Louis Stevenson;1883;aventura;0;none
+20;O Conde de Monte Cristo;Alexandre Dumas;1844;aventura;0;none
+21;Os Miseraveis;Victor Hugo;1862;drama;0;none
+22;Guerra e Paz;Leo Tolstoy;1869;historico;0;none
+23;Crime e Castigo;Fyodor Dostoevsky;1866;drama;0;none
+24;O Retrato de Dorian Gray;Oscar Wilde;1890;ficcao;0;none
+25;O Apanhador no Campo de Centeio;J.D. Salinger;1951;drama;0;none
+26;O Sol e para Todos;Harper Lee;1960;drama;0;none
+27;O Grande Gatsby;F. Scott Fitzgerald;1925;drama;0;none
+28;Mataram a Cotovia;Harper Lee;1960;drama;0;none
+29;O Hobbit;J.R.R. Tolkien;1937;fantasia;0;none
+30;A Divina Comedia;Dante Alighieri;1320;poesia;0;none
+31;Odisseia;Homero;800 a.C.;epico;0;none
+32;Ilíada;Homero;750 a.C.;epico;0;none
+33;A Metamorfose;Franz Kafka;1915;ficcao;0;none
+34;O Processo;Franz Kafka;1925;ficcao;0;none
+35;O Estrangeiro;Albert Camus;1942;filosofico;0;none
+36;A Revolucao dos Bichos;George Orwell;1945;satira;0;none
+37;Admiravel Mundo Novo;Aldous Huxley;1932;ficcao;0;none
+38;Fahrenheit 451;Ray Bradbury;1953;ficcao;0;none
+39;O Sol Tambem se Levanta;Ernest Hemingway;1926;drama;0;none
+40;É assim que acaba;Colleen Hoover;2018;drama;0;none
