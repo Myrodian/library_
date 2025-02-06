@@ -4,8 +4,8 @@
 
 #define TABLE_SIZE 101 // Tamanho da tabela hash
 
-typedef struct Livro
-{
+// Definição da estrutura Livro
+typedef struct Livro {
     int id;
     char titulo[100];
     char autor[100];
@@ -18,6 +18,7 @@ typedef struct Livro
 Livro *tabela[TABLE_SIZE]; // Tabela hash
 Livro *listaLivros = NULL; // Lista encadeada para todos os livros
 
+// Funções
 int hash(int id);
 void salvarLivros();
 void carregarLivros();
@@ -28,29 +29,28 @@ void devolverLivro();
 void listarLivros();
 Livro *buscaDuplicata(Livro *lista, Livro *novo);
 
-int hash(int id){ // Função para calcular o índice da tabela hash
+// Função para calcular o índice da tabela hash
+int hash(int id) {
     return id % TABLE_SIZE;
 }
 
-void salvarLivros() // função para salvar os livros no arquivo txt
-{
+// Função para salvar os livros no arquivo txt
+void salvarLivros() {
     FILE *arquivo = fopen("livros.txt", "wb");
-    if (!arquivo)
-    {
+    if (!arquivo) {
         printf("Erro ao abrir arquivo para escrita.\n");
         return;
     }
     Livro *atual = listaLivros;
-    while (atual)
-    {
+    while (atual) {
         fprintf(arquivo, "%d;%s;%s;%d;%s;%d\n", atual->id, atual->titulo, atual->autor, atual->ano, atual->genero, atual->emprestado);
         atual = atual->prox;
     }
     fclose(arquivo);
 }
 
-void carregarLivros() // essa função é somente para o programa carregar os livros do arquivo txt
-{
+// Função para carregar os livros do arquivo txt
+void carregarLivros() {
     FILE *arquivo = fopen("livros.txt", "r");
     if (!arquivo)
         return;
@@ -58,26 +58,21 @@ void carregarLivros() // essa função é somente para o programa carregar os li
     int id, ano, emprestado;
     char titulo[100], autor[100], genero[50];
 
-    while (fscanf(arquivo, "%d;%99[^;];%99[^;];%d;%49[^;];%d\n",
-                  &id, titulo, autor, &ano, genero, &emprestado) == 6)
-    {
+    while (fscanf(arquivo, "%d;%99[^;];%99[^;];%d;%49[^;];%d\n", &id, titulo, autor, &ano, genero, &emprestado) == 6) {
         // Verifica se o livro já está cadastrado
         int index = hash(id);
         Livro *atual = tabela[index];
         int existe = 0;
 
-        while (atual)
-        {
-            if (atual->id == id)
-            {
+        while (atual) {
+            if (atual->id == id) {
                 existe = 1;
                 break;
             }
             atual = atual->prox;
         }
 
-        if (!existe)
-        {
+        if (!existe) {
             inserirLivro(id, titulo, autor, ano, genero, 0);
             tabela[index]->emprestado = emprestado;
         }
@@ -85,8 +80,8 @@ void carregarLivros() // essa função é somente para o programa carregar os li
     fclose(arquivo);
 }
 
-void inserirLivro(int id, char *titulo, char *autor, int ano, char *genero, int salvar) // função para inserir um livro na livraria
-{
+// Função para inserir um livro na livraria
+void inserirLivro(int id, char *titulo, char *autor, int ano, char *genero, int salvar) {
     Livro *novo = (Livro *)malloc(sizeof(Livro));
     novo->id = id;
     strcpy(novo->titulo, titulo);
@@ -103,26 +98,27 @@ void inserirLivro(int id, char *titulo, char *autor, int ano, char *genero, int 
     novo->prox = listaLivros;
     listaLivros = novo;
 
-    if (salvar == 1){
+    if (salvar == 1) {
         salvarLivros();
     }
 }
 
+// Função para buscar livro por critério
 Livro *buscarLivroPorCriterio() {
     int opcao;
     printf("Buscar livro por:\n");
     printf("1. ID\n");
-    printf("2. Título\n");
+    printf("2. Titulo\n");
     printf("3. Autor\n");
     printf("4. Ano\n");
-    printf("Escolha uma opção: ");
+    printf("Escolha uma opcao: ");
     scanf("%d", &opcao);
     getchar(); // Para limpar o buffer do teclado
 
     Livro *resultado = NULL, *ultimo = NULL;
 
     if (opcao == 1) {
-        // 📌 Busca direta por ID na tabela hash
+        // Busca direta por ID na tabela hash
         int id;
         printf("Digite o ID do livro: ");
         scanf("%d", &id);
@@ -132,25 +128,22 @@ Livro *buscarLivroPorCriterio() {
 
         while (atual) {
             if (atual->id == id) {
-                // Retorna o livro encontrado diretamente
-                return atual;
+                return atual; // Retorna o livro encontrado diretamente
             }
             atual = atual->prox;
         }
         printf("Nenhum livro encontrado com ID %d.\n", id);
         return NULL;
-
     } else {
         char termoBusca[100];
         printf("Digite o termo de busca: ");
         fgets(termoBusca, sizeof(termoBusca), stdin);
         termoBusca[strcspn(termoBusca, "\n")] = 0; // Remover '\n'
 
-        // 📌 Busca por Título, Autor ou Ano — Percorre apenas listas não vazias
+        // Busca por Titulo, Autor ou Ano — Percorre apenas listas não vazias
         for (int i = 0; i < TABLE_SIZE; i++) {
-            if (tabela[i]) { // Só percorre posições que têm livros
+            if (tabela[i]) {
                 Livro *atual = tabela[i];
-
                 while (atual) {
                     int encontrado = 0;
 
@@ -177,24 +170,25 @@ Livro *buscarLivroPorCriterio() {
     }
 
     if (!resultado) {
-        printf("Nenhum livro encontrado com esse critério.\n");
+        printf("Nenhum livro encontrado com esse criterio.\n");
     }
     return resultado;
 }
+
+// Função para verificar duplicatas
 Livro *buscaDuplicata(Livro *lista, Livro *novo) {
     while (lista) {
         if (strcmp(lista->titulo, novo->titulo) == 0 &&
             strcmp(lista->autor, novo->autor) == 0 &&
             lista->ano == novo->ano) {
-            return lista;  // Já existe
-            }
+            return lista; // Já existe
+        }
         lista = lista->prox;
     }
-    return NULL;  // Não encontrado
+    return NULL; // Não encontrado
 }
 
-
-
+// Função para emprestar livro
 void emprestarLivro() {
     Livro *encontrados = buscarLivroPorCriterio();
     if (!encontrados) {
@@ -202,7 +196,6 @@ void emprestarLivro() {
         return;
     }
 
-    // Contar quantos livros foram encontrados
     int count = 0;
     Livro *temp = encontrados;
     while (temp) {
@@ -211,16 +204,14 @@ void emprestarLivro() {
     }
 
     if (count == 1) {
-        // Apenas um livro encontrado
         if (encontrados->emprestado == 0) {
             encontrados->emprestado = 1;
             printf("Livro '%s' emprestado com sucesso!\n", encontrados->titulo);
             salvarLivros();
         } else {
-            printf("Livro já está emprestado!\n");
+            printf("Livro ja esta emprestado!\n");
         }
     } else {
-        // Vários livros encontrados, listar e pedir para escolher
         printf("\nForam encontrados %d livros. Escolha pelo ID:\n", count);
         temp = encontrados;
         while (temp) {
@@ -230,12 +221,10 @@ void emprestarLivro() {
             temp = temp->prox;
         }
 
-        // Pedir ID do livro desejado
         int idEscolhido;
         printf("Digite o ID do livro que deseja emprestar: ");
         scanf("%d", &idEscolhido);
 
-        // Encontrar o livro correto na tabela hash e emprestar
         int index = hash(idEscolhido);
         Livro *atual = tabela[index];
         while (atual) {
@@ -245,95 +234,93 @@ void emprestarLivro() {
                     printf("Livro '%s' emprestado com sucesso!\n", atual->titulo);
                     salvarLivros();
                 } else {
-                    printf("Livro já está emprestado!\n");
+                    printf("Livro ja esta emprestado!\n");
                 }
                 return;
             }
             atual = atual->prox;
         }
-        printf("Livro com ID %d não encontrado!\n", idEscolhido);
+        printf("Livro com ID %d nao encontrado!\n", idEscolhido);
     }
 }
 
+// Função para devolver livro
 void devolverLivro() {
-    Livro *encontrados = buscarLivroPorCriterio();
-    if (!encontrados) {
-        printf("Nenhum livro encontrado!\n");
-        return;
-    }
+    Livro *emprestados = NULL;
+    Livro *temp = listaLivros;
 
-    int count = 0;
-    Livro *temp = encontrados;
+    // Procurando livros emprestados
     while (temp) {
-        count++;
+        if (temp->emprestado == 1) {
+            Livro *novoLivro = (Livro *)malloc(sizeof(Livro));
+            *novoLivro = *temp;
+            novoLivro->prox = emprestados;
+            emprestados = novoLivro;
+        }
         temp = temp->prox;
     }
 
-    if (count == 1) {
-        // Apenas um livro encontrado
-        if (encontrados->emprestado == 1) {
-            encontrados->emprestado = 0;
-            printf("Livro '%s' devolvido com sucesso!\n", encontrados->titulo);
-            salvarLivros();
-        } else {
-            printf("Livro não está emprestado!\n");
-        }
-    } else {
-        // Vários livros encontrados, listar e pedir escolha
-        printf("\nForam encontrados %d livros. Escolha pelo ID:\n", count);
-        temp = encontrados;
-        while (temp) {
-            printf("ID: %d | Titulo: %s | Autor: %s | Ano: %d | Emprestado: %s\n",
-                   temp->id, temp->titulo, temp->autor, temp->ano,
-                   temp->emprestado ? "Sim" : "Nao");
-            temp = temp->prox;
-        }
-
-        int idEscolhido;
-        printf("Digite o ID do livro que deseja devolver: ");
-        scanf("%d", &idEscolhido);
-
-        int index = hash(idEscolhido);
-        Livro *atual = tabela[index];
-        while (atual) {
-            if (atual->id == idEscolhido) {
-                if (atual->emprestado == 1) {
-                    atual->emprestado = 0;
-                    printf("Livro '%s' devolvido com sucesso!\n", atual->titulo);
-                    salvarLivros();
-                } else {
-                    printf("Livro não está emprestado!\n");
-                }
-                return;
-            }
-            atual = atual->prox;
-        }
-        printf("Livro com ID %d não encontrado!\n", idEscolhido);
+    if (!emprestados) {
+        printf("Nao ha livros emprestados.\n");
+        return;
     }
+
+    printf("Livros atualmente emprestados:\n");
+    temp = emprestados;
+    while (temp) {
+        printf("ID: %d | Titulo: %s | Autor: %s | Ano: %d | Emprestado: %s\n",
+               temp->id, temp->titulo, temp->autor, temp->ano,
+               temp->emprestado ? "Sim" : "Nao");
+        temp = temp->prox;
+    }
+
+    // Permitir o usuário devolver um livro
+    int idEscolhido;
+    printf("Digite o ID do livro que deseja devolver: ");
+    scanf("%d", &idEscolhido);
+
+    int index = hash(idEscolhido);
+    Livro *atual = tabela[index];
+    while (atual) {
+        if (atual->id == idEscolhido) {
+            if (atual->emprestado == 1) {
+                atual->emprestado = 0;
+                printf("Livro '%s' devolvido com sucesso!\n", atual->titulo);
+                salvarLivros();
+            } else {
+                printf("Livro nao esta emprestado!\n");
+            }
+            return;
+        }
+        atual = atual->prox;
+    }
+
+    printf("Livro com ID %d nao encontrado!\n", idEscolhido);
 }
 
-
-void listarLivros(){ // Função para listar todos os livros cadastrados
+// Função para listar todos os livros cadastrados
+void listarLivros() {
     Livro *atual = listaLivros;
-    if (!atual){
+    if (!atual) {
         printf("\nNenhum livro cadastrado!\n");
         return;
     }
     printf("\nLista de Livros:\n");
-    while (atual){
-        printf("ID: %d | Titulo: %s | Autor: %s | Ano: %d | Emprestado: %s\n",
-               atual->id, atual->titulo, atual->autor, atual->ano,
-               atual->emprestado ? "Sim" : "Nao");
+    while (atual) {
+        printf("ID: %d \t | Titulo: %s | Autor: %s | Ano: %d | Genero: %s | Emprestado: %s\n",
+                              atual->id, atual->titulo, atual->autor, atual->ano, atual->genero,
+                              atual->emprestado ? "Sim" : "Nao");
         atual = atual->prox;
     }
 }
-int main(){
+
+int main() {
     carregarLivros();
     int opcao, id, ano;
     char titulo[100], autor[100], genero[50];
     Livro *encontrados = NULL;
-    do
-    {
+
+    do {
         printf("\nMenu:\n");
         printf("1 - Cadastrar Livro\n");
         printf("2 - Buscar Livro\n");
@@ -345,8 +332,7 @@ int main(){
         scanf("%d", &opcao);
         getchar();
 
-        switch (opcao)
-        {
+        switch (opcao) {
             case 1:
                 printf("ID: ");
                 scanf("%d", &id);
@@ -371,25 +357,29 @@ int main(){
                     printf("\nLivros encontrados:\n");
                     Livro *atual = encontrados;
                     while (atual) {
-                        printf("ID: %d | Titulo: %s | Autor: %s | Ano: %d | Emprestado: %s\n",
-                               atual->id, atual->titulo, atual->autor, atual->ano,
+                        printf("ID: %d | Titulo: %s | Autor: %s | Ano: %d | Genero: %s | Emprestado: %s\n",
+                               atual->id, atual->titulo, atual->autor, atual->ano, atual->genero,
                                atual->emprestado ? "Sim" : "Nao");
                         atual = atual->prox;
                     }
-                } else {
-                    printf("Nenhum livro encontrado.\n");
                 }
-            break;
+                break;
             case 3:
                 emprestarLivro();
-            break;
+                break;
             case 4:
                 devolverLivro();
-            break;
+                break;
             case 5:
                 listarLivros();
-            break;
+                break;
+            case 0:
+                printf("Saindo...\n");
+                break;
+            default:
+                printf("Opcao invalida.\n");
         }
     } while (opcao != 0);
+
     return 0;
 }
