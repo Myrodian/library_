@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/User/Desktop/library_/cmake-build-debug",
-		"source" : "C:/Users/User/Desktop/library_"
+		"build" : "C:/Users/User/Desktop/project_library/library_/cmake-build-debug",
+		"source" : "C:/Users/User/Desktop/project_library/library_"
 	},
 	"version" : 
 	{
