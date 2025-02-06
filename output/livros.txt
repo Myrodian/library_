@@ -1,0 +1,4 @@
+99;habitos;andrei;1789;conselhos;0;
+9;kingdom;kalaun;1887;governanca;0;
+3;papaleguas;joseph;1999;aventura;0;
+2;elefantes;jose;2001;yes;0;
