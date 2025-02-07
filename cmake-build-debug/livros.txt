@@ -1,41 +1,1000 @@
-40;E assim que acaba;Colleen Hoover;2018;drama;0
-39;O Sol Tambem se Levanta;Ernest Hemingway;1926;drama;0
-38;Fahrenheit 451;Ray Bradbury;1953;ficcao;0
-37;Admiravel Mundo Novo;Aldous Huxley;1932;ficcao;0
-36;A Revolucao dos Bichos;George Orwell;1945;satira;0
-35;O Estrangeiro;Albert Camus;1942;filosofico;0
-34;O Processo;Franz Kafka;1925;ficcao;0
-33;A Metamorfose;Franz Kafka;1915;ficcao;0
-32;Ilíada;Homero;750;epico;0
-31;Odisseia;Homero;800;epico;0
-30;A Divina Comedia;Dante Alighieri;1320;poesia;0
-29;O Hobbit;J.R.R. Tolkien;1937;fantasia;0
-28;Mataram a Cotovia;Harper Lee;1960;drama;0
-27;O Grande Gatsby;F. Scott Fitzgerald;1925;drama;0
-26;O Sol e para Todos;Harper Lee;1960;drama;0
-25;O Apanhador no Campo de Centeio;J.D. Salinger;2018;drama;1
-24;O Retrato de Dorian Gray;Oscar Wilde;1890;ficcao;0
-23;Crime e Castigo;Fyodor Dostoevsky;1866;drama;0
-22;Guerra e Paz;Leo Tolstoy;1869;historico;0
-21;Os Miseraveis;Victor Hugo;1862;drama;0
-20;O Conde de Monte Cristo;Alexandre Dumas;1844;aventura;0
-19;A Ilha do Tesouro;Robert Louis Stevenson;2018;aventura;1
-18;O Alquimista;Paulo Coelho;1988;acao;0
-17;1984;George Orwell;1949;acao;0
-16;Dom Casmurro;Machado de Assis;1899;acao;0
-15;O Senhor dos Aneis;J.R.R. Tolkien;1954;acao;0
-14;O Pequeno Principe;Antoine de Saint-Exupery;1943;acao;0
-13;Harry Potter e a Pedra Filosofal;J.K. Rowling;1997;acao;0
-12;Orgulho e Preconceito;Jane Austen;1813;acao;0
-11;Cem Anos de Solidao;Gabriel Garcia Marquez;1967;acao;0
-10;A Revolucao dos Bichos;George Orwell;1945;acao;0
-9;As Cronicas de Narnia;C.S. Lewis;1950;acao;0
-8;O Morro dos Ventos Uivantes;Emily Bronte;1847;acao;0
-7;A Menina que Roubava Livros;Markus Zusak;2005;acao;0
-6;Moby Dick;Herman Melville;1851;acao;0
-5;Jane Eyre;Charlotte Bronte;1847;ficcao;0
-4;O Codigo Da Vinci;Dan Brown;2003;acao;0
-3;O Nome da Rosa;Umberto Eco;1980;drama;1
-2;Dracula;Bram Stoker;1897;acao;0
-1;Frankenstein;Mary Shelley;1818;acao;0
-41;Pantanal;Monte Carlo;1960;drama;1
+1;A Jornada Sem Fim;Carlos Souza;1916;ficcao;0
+2;O Livro da Vida;Bruno Rocha;1926;drama;0
+3;Ecos do Passado;Camila Pinto;2009;epico;1
+4;Horizontes Distantes;Camila Pinto;1902;misterio;0
+5;Ventos de Mudanca;Ana Costa;1959;aventura;1
+6;O Livro da Vida;Joao Silva;2017;historia;1
+7;Caminhos Cruzados;Ana Costa;1931;ficcao;0
+8;Ecos do Passado;Ana Costa;1971;aventura;1
+9;Caminhos Cruzados;Paula Santos;1921;aventura;0
+10;Misterios da Noite;Paula Santos;1998;poesia;0
+11;Entre Sombras;Pedro Almeida;2013;misterio;1
+12;Ventos de Mudanca;Paula Santos;2005;aventura;1
+13;O Livro da Vida;Joao Silva;1936;epico;1
+14;O Ultimo Reinado;Joao Silva;2014;suspense;1
+15;Horizontes Distantes;Pedro Almeida;2010;drama;0
+16;Vozes Silenciosas;Maria Oliveira;1907;suspense;0
+17;Caminhos Cruzados;Joao Silva;1978;aventura;0
+18;A Jornada Sem Fim;Mariana Ferreira;1975;epico;0
+19;O Livro da Vida;Rafael Lima;1900;poesia;0
+20;O Ultimo Reinado;Mariana Ferreira;1973;suspense;1
+21;Misterios da Noite;Carlos Souza;1975;aventura;0
+22;Ecos do Passado;Rafael Lima;1942;poesia;0
+23;Ventos de Mudanca;Mariana Ferreira;2002;aventura;1
+24;Ventos de Mudanca;Camila Pinto;1984;romance;1
+25;Vozes Silenciosas;Bruno Rocha;1989;epico;0
+26;Horizontes Distantes;Carlos Souza;1904;poesia;1
+27;Ecos do Passado;Carlos Souza;1911;aventura;0
+28;O Livro da Vida;Carlos Souza;1937;poesia;0
+29;O Livro da Vida;Paula Santos;1917;suspense;0
+30;Caminhos Cruzados;Bruno Rocha;1908;romance;0
+31;Horizontes Distantes;Carlos Souza;1955;suspense;0
+32;Misterios da Noite;Pedro Almeida;1947;autoajuda;1
+33;Misterios da Noite;Joao Silva;1972;suspense;0
+34;Ecos do Passado;Paula Santos;1929;aventura;1
+35;Ecos do Passado;Camila Pinto;1959;misterio;0
+36;Ecos do Passado;Camila Pinto;1967;misterio;1
+37;Entre Sombras;Maria Oliveira;1986;misterio;0
+38;A Jornada Sem Fim;Camila Pinto;1950;suspense;1
+39;O Livro da Vida;Camila Pinto;1910;epico;0
+40;A Jornada Sem Fim;Ana Costa;2008;aventura;1
+41;Ecos do Passado;Ana Costa;1985;romance;0
+42;Caminhos Cruzados;Rafael Lima;1970;drama;1
+43;O Ultimo Reinado;Pedro Almeida;2015;misterio;1
+44;Ecos do Passado;Ana Costa;1905;drama;0
+45;O Ultimo Reinado;Mariana Ferreira;1939;ficcao;1
+46;O Ultimo Reinado;Maria Oliveira;1974;autoajuda;0
+47;O Ultimo Reinado;Pedro Almeida;2015;ficcao;0
+48;O Ultimo Reinado;Mariana Ferreira;1904;autoajuda;1
+49;Horizontes Distantes;Maria Oliveira;1957;historia;1
+50;O Livro da Vida;Pedro Almeida;1900;historia;1
+51;Ventos de Mudanca;Camila Pinto;1993;romance;0
+52;O Livro da Vida;Pedro Almeida;1928;suspense;1
+53;Caminhos Cruzados;Mariana Ferreira;1974;romance;0
+54;Caminhos Cruzados;Ana Costa;1973;autoajuda;1
+55;Entre Sombras;Rafael Lima;1926;drama;0
+56;O Livro da Vida;Joao Silva;1906;epico;1
+57;Misterios da Noite;Joao Silva;1998;aventura;0
+58;Ecos do Passado;Joao Silva;1924;drama;1
+59;Caminhos Cruzados;Bruno Rocha;1964;ficcao;1
+60;O Ultimo Reinado;Mariana Ferreira;1985;historia;1
+61;Vozes Silenciosas;Carlos Souza;1906;historia;0
+62;Caminhos Cruzados;Joao Silva;1986;aventura;0
+63;O Livro da Vida;Joao Silva;1952;ficcao;1
+64;O Ultimo Reinado;Camila Pinto;1964;misterio;0
+65;O Ultimo Reinado;Maria Oliveira;1957;suspense;1
+66;O Ultimo Reinado;Carlos Souza;2016;drama;0
+67;O Ultimo Reinado;Carlos Souza;1933;epico;0
+68;Misterios da Noite;Paula Santos;1940;epico;0
+69;Horizontes Distantes;Pedro Almeida;1961;aventura;0
+70;Entre Sombras;Rafael Lima;1984;ficcao;0
+71;O Livro da Vida;Ana Costa;1956;suspense;1
+72;Ventos de Mudanca;Paula Santos;1928;poesia;0
+73;A Jornada Sem Fim;Maria Oliveira;1947;suspense;1
+74;Horizontes Distantes;Pedro Almeida;1972;drama;0
+75;Horizontes Distantes;Maria Oliveira;1947;poesia;1
+76;O Livro da Vida;Ana Costa;1950;ficcao;0
+77;Vozes Silenciosas;Carlos Souza;2009;autoajuda;1
+78;Caminhos Cruzados;Maria Oliveira;2006;aventura;0
+79;Entre Sombras;Camila Pinto;2002;historia;0
+80;Misterios da Noite;Camila Pinto;1980;aventura;0
+81;Horizontes Distantes;Joao Silva;1956;ficcao;0
+82;Ecos do Passado;Maria Oliveira;1901;drama;0
+83;A Jornada Sem Fim;Paula Santos;1915;historia;1
+84;Vozes Silenciosas;Maria Oliveira;1909;poesia;0
+85;A Jornada Sem Fim;Maria Oliveira;2006;romance;1
+86;O Ultimo Reinado;Maria Oliveira;1926;ficcao;0
+87;Ecos do Passado;Joao Silva;2016;ficcao;0
+88;Ecos do Passado;Rafael Lima;1916;epico;1
+89;O Ultimo Reinado;Maria Oliveira;1925;romance;1
+90;Ventos de Mudanca;Bruno Rocha;2005;autoajuda;1
+91;Ventos de Mudanca;Paula Santos;2015;aventura;1
+92;Horizontes Distantes;Joao Silva;1902;aventura;0
+93;Caminhos Cruzados;Camila Pinto;2003;drama;1
+94;Ecos do Passado;Paula Santos;1916;autoajuda;0
+95;Vozes Silenciosas;Joao Silva;1930;misterio;0
+96;Misterios da Noite;Camila Pinto;1965;ficcao;0
+97;O Ultimo Reinado;Rafael Lima;2002;drama;1
+98;Ecos do Passado;Bruno Rocha;1929;romance;1
+99;Vozes Silenciosas;Camila Pinto;1928;ficcao;1
+100;O Ultimo Reinado;Paula Santos;1921;autoajuda;1
+101;Entre Sombras;Carlos Souza;1908;aventura;0
+102;Entre Sombras;Camila Pinto;1950;romance;0
+103;Ecos do Passado;Joao Silva;2004;epico;0
+104;Vozes Silenciosas;Rafael Lima;1943;historia;0
+105;Caminhos Cruzados;Ana Costa;1993;drama;0
+106;O Livro da Vida;Camila Pinto;1939;historia;1
+107;Caminhos Cruzados;Carlos Souza;1979;ficcao;0
+108;Caminhos Cruzados;Bruno Rocha;1959;drama;0
+109;Caminhos Cruzados;Bruno Rocha;1948;suspense;1
+110;Horizontes Distantes;Maria Oliveira;1988;suspense;1
+111;Horizontes Distantes;Rafael Lima;1944;ficcao;1
+112;Ventos de Mudanca;Carlos Souza;1991;aventura;0
+113;Misterios da Noite;Joao Silva;1996;suspense;0
+114;Horizontes Distantes;Rafael Lima;1985;drama;0
+115;Horizontes Distantes;Rafael Lima;1979;poesia;1
+116;Misterios da Noite;Ana Costa;1912;drama;1
+117;Entre Sombras;Joao Silva;1955;drama;0
+118;Entre Sombras;Carlos Souza;1978;aventura;0
+119;O Ultimo Reinado;Carlos Souza;1902;misterio;0
+120;Ecos do Passado;Camila Pinto;1924;suspense;1
+121;Ventos de Mudanca;Ana Costa;1909;poesia;0
+122;Caminhos Cruzados;Carlos Souza;2010;historia;0
+123;Vozes Silenciosas;Rafael Lima;1915;epico;0
+124;Vozes Silenciosas;Rafael Lima;1939;drama;0
+125;O Livro da Vida;Rafael Lima;1917;romance;0
+126;O Livro da Vida;Carlos Souza;1925;romance;1
+127;Misterios da Noite;Ana Costa;1932;aventura;0
+128;O Livro da Vida;Joao Silva;1914;misterio;1
+129;O Ultimo Reinado;Joao Silva;1954;ficcao;1
+130;Entre Sombras;Camila Pinto;2014;drama;0
+131;Vozes Silenciosas;Ana Costa;1919;misterio;1
+132;Caminhos Cruzados;Mariana Ferreira;1966;misterio;0
+133;O Livro da Vida;Pedro Almeida;1905;epico;1
+134;Vozes Silenciosas;Carlos Souza;1906;suspense;0
+135;Ventos de Mudanca;Rafael Lima;2001;poesia;1
+136;Misterios da Noite;Ana Costa;1960;poesia;1
+137;O Livro da Vida;Camila Pinto;1916;ficcao;0
+138;A Jornada Sem Fim;Rafael Lima;1965;aventura;1
+139;Entre Sombras;Camila Pinto;1980;epico;1
+140;Ventos de Mudanca;Camila Pinto;1915;autoajuda;1
+141;Ecos do Passado;Joao Silva;1938;romance;0
+142;A Jornada Sem Fim;Camila Pinto;1956;suspense;0
+143;Misterios da Noite;Ana Costa;1974;drama;1
+144;Misterios da Noite;Camila Pinto;1977;epico;0
+145;Misterios da Noite;Carlos Souza;2001;autoajuda;0
+146;Ventos de Mudanca;Mariana Ferreira;1940;ficcao;1
+147;O Ultimo Reinado;Carlos Souza;2018;autoajuda;0
+148;O Livro da Vida;Joao Silva;1920;misterio;0
+149;A Jornada Sem Fim;Paula Santos;2010;romance;1
+150;Entre Sombras;Carlos Souza;1969;misterio;1
+151;A Jornada Sem Fim;Carlos Souza;1977;suspense;1
+152;Ecos do Passado;Joao Silva;1963;misterio;1
+153;Horizontes Distantes;Maria Oliveira;1992;drama;0
+154;Ventos de Mudanca;Maria Oliveira;1945;suspense;0
+155;O Livro da Vida;Joao Silva;1964;misterio;0
+156;Horizontes Distantes;Bruno Rocha;1913;poesia;0
+157;Ecos do Passado;Camila Pinto;1938;epico;0
+158;Caminhos Cruzados;Mariana Ferreira;1949;misterio;0
+159;Horizontes Distantes;Rafael Lima;1976;poesia;0
+160;Entre Sombras;Rafael Lima;1945;drama;0
+161;Entre Sombras;Ana Costa;1917;poesia;1
+162;Entre Sombras;Maria Oliveira;2005;poesia;0
+163;A Jornada Sem Fim;Bruno Rocha;1906;drama;1
+164;Misterios da Noite;Rafael Lima;1975;historia;0
+165;Entre Sombras;Rafael Lima;1935;historia;1
+166;Horizontes Distantes;Bruno Rocha;1914;poesia;0
+167;O Ultimo Reinado;Camila Pinto;1925;romance;0
+168;Horizontes Distantes;Joao Silva;1918;aventura;1
+169;O Ultimo Reinado;Ana Costa;1919;autoajuda;0
+170;Entre Sombras;Pedro Almeida;1924;aventura;1
+171;Vozes Silenciosas;Bruno Rocha;1970;misterio;1
+172;O Livro da Vida;Bruno Rocha;1983;historia;1
+173;Ecos do Passado;Paula Santos;1928;romance;0
+174;Misterios da Noite;Carlos Souza;1990;autoajuda;1
+175;O Ultimo Reinado;Camila Pinto;1978;epico;1
+176;O Livro da Vida;Maria Oliveira;2020;historia;1
+177;Ventos de Mudanca;Paula Santos;1913;romance;0
+178;Ventos de Mudanca;Rafael Lima;1977;historia;0
+179;Caminhos Cruzados;Carlos Souza;1902;suspense;0
+180;A Jornada Sem Fim;Carlos Souza;1984;epico;1
+181;A Jornada Sem Fim;Joao Silva;2019;poesia;1
+182;Caminhos Cruzados;Carlos Souza;1959;romance;0
+183;Ventos de Mudanca;Paula Santos;1977;romance;1
+184;Caminhos Cruzados;Mariana Ferreira;1990;misterio;0
+185;Caminhos Cruzados;Joao Silva;1976;poesia;0
+186;O Livro da Vida;Pedro Almeida;2005;historia;1
+187;A Jornada Sem Fim;Paula Santos;1941;aventura;1
+188;A Jornada Sem Fim;Joao Silva;1947;autoajuda;0
+189;Entre Sombras;Joao Silva;1932;aventura;0
+190;O Ultimo Reinado;Rafael Lima;1983;aventura;0
+191;Caminhos Cruzados;Pedro Almeida;1911;misterio;0
+192;O Livro da Vida;Rafael Lima;1947;poesia;1
+193;O Livro da Vida;Rafael Lima;2002;historia;1
+194;Ecos do Passado;Joao Silva;1927;misterio;1
+195;Ventos de Mudanca;Maria Oliveira;2009;historia;0
+196;Misterios da Noite;Rafael Lima;1915;aventura;0
+197;Vozes Silenciosas;Carlos Souza;1922;suspense;0
+198;O Livro da Vida;Carlos Souza;1920;historia;1
+199;Entre Sombras;Mariana Ferreira;1918;misterio;0
+200;O Ultimo Reinado;Rafael Lima;1902;poesia;1
+201;Entre Sombras;Paula Santos;2009;suspense;0
+202;Ventos de Mudanca;Mariana Ferreira;1917;poesia;0
+203;Ecos do Passado;Ana Costa;2014;poesia;1
+204;Entre Sombras;Mariana Ferreira;2015;suspense;0
+205;Ecos do Passado;Camila Pinto;1988;epico;1
+206;Vozes Silenciosas;Carlos Souza;2001;romance;0
+207;O Livro da Vida;Bruno Rocha;1900;historia;1
+208;Caminhos Cruzados;Carlos Souza;1940;autoajuda;1
+209;O Livro da Vida;Paula Santos;1985;suspense;0
+210;Ventos de Mudanca;Paula Santos;1904;drama;1
+211;Ventos de Mudanca;Paula Santos;1907;suspense;1
+212;Ecos do Passado;Pedro Almeida;1985;drama;1
+213;Ventos de Mudanca;Mariana Ferreira;1968;romance;0
+214;O Ultimo Reinado;Mariana Ferreira;1941;epico;0
+215;Caminhos Cruzados;Rafael Lima;1916;drama;1
+216;O Ultimo Reinado;Ana Costa;1916;aventura;0
+217;Horizontes Distantes;Bruno Rocha;1987;romance;0
+218;O Livro da Vida;Maria Oliveira;1908;autoajuda;0
+219;Entre Sombras;Rafael Lima;1933;misterio;0
+220;A Jornada Sem Fim;Mariana Ferreira;2003;epico;0
+221;Ecos do Passado;Camila Pinto;1964;ficcao;0
+222;Caminhos Cruzados;Maria Oliveira;1980;drama;0
+223;O Livro da Vida;Mariana Ferreira;1908;drama;1
+224;A Jornada Sem Fim;Ana Costa;2019;romance;0
+225;A Jornada Sem Fim;Camila Pinto;1981;poesia;1
+226;Ventos de Mudanca;Carlos Souza;1984;historia;1
+227;O Ultimo Reinado;Carlos Souza;1957;historia;0
+228;Caminhos Cruzados;Pedro Almeida;1951;historia;1
+229;Entre Sombras;Camila Pinto;1978;misterio;1
+230;Entre Sombras;Bruno Rocha;2017;ficcao;1
+231;Misterios da Noite;Rafael Lima;1940;historia;1
+232;O Livro da Vida;Joao Silva;1987;historia;1
+233;Horizontes Distantes;Bruno Rocha;2019;suspense;0
+234;Vozes Silenciosas;Pedro Almeida;2009;aventura;1
+235;O Ultimo Reinado;Ana Costa;1927;aventura;1
+236;Misterios da Noite;Mariana Ferreira;1935;suspense;0
+237;O Livro da Vida;Joao Silva;1944;historia;1
+238;Horizontes Distantes;Joao Silva;1976;romance;0
+239;Vozes Silenciosas;Joao Silva;1970;epico;0
+240;Entre Sombras;Camila Pinto;1966;ficcao;0
+241;O Livro da Vida;Paula Santos;1961;romance;1
+242;Ecos do Passado;Rafael Lima;1965;autoajuda;1
+243;O Livro da Vida;Mariana Ferreira;2005;suspense;0
+244;Ecos do Passado;Paula Santos;1966;aventura;1
+245;O Ultimo Reinado;Maria Oliveira;1904;poesia;0
+246;Caminhos Cruzados;Paula Santos;1984;epico;1
+247;O Ultimo Reinado;Mariana Ferreira;1954;suspense;1
+248;Entre Sombras;Joao Silva;1918;autoajuda;1
+249;A Jornada Sem Fim;Ana Costa;2009;poesia;1
+250;Ecos do Passado;Rafael Lima;1933;drama;1
+251;A Jornada Sem Fim;Camila Pinto;1967;suspense;1
+252;Entre Sombras;Paula Santos;1957;suspense;0
+253;Vozes Silenciosas;Carlos Souza;1938;misterio;1
+254;Entre Sombras;Paula Santos;1929;drama;0
+255;A Jornada Sem Fim;Carlos Souza;1901;drama;1
+256;Caminhos Cruzados;Ana Costa;1918;epico;1
+257;Entre Sombras;Carlos Souza;2004;ficcao;0
+258;O Ultimo Reinado;Camila Pinto;1984;romance;0
+259;Ventos de Mudanca;Carlos Souza;2017;ficcao;0
+260;O Livro da Vida;Paula Santos;2011;ficcao;0
+261;A Jornada Sem Fim;Rafael Lima;1966;suspense;1
+262;Caminhos Cruzados;Carlos Souza;1985;aventura;0
+263;Vozes Silenciosas;Camila Pinto;1971;poesia;1
+264;Ventos de Mudanca;Paula Santos;1973;ficcao;0
+265;Entre Sombras;Mariana Ferreira;1900;epico;0
+266;A Jornada Sem Fim;Carlos Souza;1936;ficcao;1
+267;Misterios da Noite;Joao Silva;1967;romance;1
+268;Entre Sombras;Joao Silva;1975;autoajuda;0
+269;Ecos do Passado;Bruno Rocha;2007;epico;0
+270;O Ultimo Reinado;Rafael Lima;1957;epico;1
+271;Caminhos Cruzados;Mariana Ferreira;1992;aventura;0
+272;Vozes Silenciosas;Bruno Rocha;2003;misterio;1
+273;O Ultimo Reinado;Maria Oliveira;2011;historia;1
+274;Ventos de Mudanca;Rafael Lima;1937;misterio;0
+275;Entre Sombras;Paula Santos;2014;autoajuda;1
+276;Misterios da Noite;Ana Costa;1958;romance;1
+277;Horizontes Distantes;Ana Costa;2005;romance;1
+278;O Ultimo Reinado;Rafael Lima;1933;autoajuda;0
+279;Ecos do Passado;Pedro Almeida;1911;epico;0
+280;Ecos do Passado;Paula Santos;1979;historia;0
+281;O Ultimo Reinado;Carlos Souza;1995;romance;0
+282;Ventos de Mudanca;Bruno Rocha;1901;romance;1
+283;Entre Sombras;Joao Silva;1972;ficcao;0
+284;A Jornada Sem Fim;Bruno Rocha;2019;drama;1
+285;Entre Sombras;Rafael Lima;1933;suspense;1
+286;Ventos de Mudanca;Joao Silva;1972;ficcao;1
+287;Misterios da Noite;Bruno Rocha;2014;autoajuda;0
+288;A Jornada Sem Fim;Maria Oliveira;1949;poesia;1
+289;A Jornada Sem Fim;Joao Silva;1920;poesia;1
+290;Entre Sombras;Maria Oliveira;1909;misterio;1
+291;O Livro da Vida;Pedro Almeida;2011;aventura;0
+292;A Jornada Sem Fim;Ana Costa;1907;poesia;0
+293;Entre Sombras;Maria Oliveira;1937;autoajuda;1
+294;Vozes Silenciosas;Rafael Lima;1985;misterio;1
+295;Vozes Silenciosas;Rafael Lima;1961;suspense;0
+296;O Livro da Vida;Camila Pinto;1982;ficcao;0
+297;Caminhos Cruzados;Bruno Rocha;1924;drama;1
+298;Ecos do Passado;Rafael Lima;1936;historia;0
+299;Ventos de Mudanca;Rafael Lima;1908;epico;1
+300;O Ultimo Reinado;Joao Silva;1994;drama;0
+301;Ventos de Mudanca;Rafael Lima;1959;autoajuda;0
+302;O Livro da Vida;Rafael Lima;1904;romance;1
+303;O Livro da Vida;Pedro Almeida;1975;historia;1
+304;Caminhos Cruzados;Rafael Lima;1945;aventura;1
+305;Ecos do Passado;Paula Santos;1961;ficcao;0
+306;O Livro da Vida;Carlos Souza;1963;romance;0
+307;O Ultimo Reinado;Ana Costa;1959;suspense;0
+308;Ventos de Mudanca;Paula Santos;1988;epico;0
+309;O Livro da Vida;Pedro Almeida;1933;aventura;1
+310;O Ultimo Reinado;Bruno Rocha;1982;misterio;0
+311;Ventos de Mudanca;Camila Pinto;1965;autoajuda;1
+312;Horizontes Distantes;Bruno Rocha;1999;suspense;1
+313;Misterios da Noite;Ana Costa;1903;aventura;1
+314;Caminhos Cruzados;Carlos Souza;2003;misterio;0
+315;Misterios da Noite;Rafael Lima;1980;epico;1
+316;O Ultimo Reinado;Rafael Lima;1921;poesia;0
+317;Ecos do Passado;Mariana Ferreira;1910;historia;1
+318;Ecos do Passado;Joao Silva;1924;poesia;0
+319;Entre Sombras;Bruno Rocha;1970;poesia;1
+320;Ecos do Passado;Joao Silva;2002;aventura;0
+321;Vozes Silenciosas;Rafael Lima;1963;poesia;0
+322;Entre Sombras;Ana Costa;1982;poesia;0
+323;Caminhos Cruzados;Carlos Souza;2002;suspense;1
+324;Ecos do Passado;Ana Costa;2013;aventura;0
+325;O Livro da Vida;Camila Pinto;1978;aventura;1
+326;Caminhos Cruzados;Ana Costa;1918;suspense;1
+327;Misterios da Noite;Ana Costa;2018;romance;1
+328;A Jornada Sem Fim;Camila Pinto;1995;romance;1
+329;Ventos de Mudanca;Rafael Lima;1964;autoajuda;0
+330;Misterios da Noite;Mariana Ferreira;1974;misterio;0
+331;Ecos do Passado;Rafael Lima;1944;historia;1
+332;Ecos do Passado;Mariana Ferreira;1994;historia;1
+333;O Livro da Vida;Maria Oliveira;1914;suspense;0
+334;Ventos de Mudanca;Mariana Ferreira;1970;epico;0
+335;Horizontes Distantes;Paula Santos;1997;drama;1
+336;O Ultimo Reinado;Camila Pinto;1925;historia;1
+337;Ecos do Passado;Mariana Ferreira;2012;ficcao;0
+338;Misterios da Noite;Paula Santos;1981;autoajuda;1
+339;Caminhos Cruzados;Camila Pinto;1997;suspense;0
+340;Entre Sombras;Joao Silva;1907;misterio;0
+341;Ecos do Passado;Pedro Almeida;1953;drama;1
+342;Horizontes Distantes;Rafael Lima;2017;misterio;1
+343;Misterios da Noite;Rafael Lima;1945;historia;1
+344;Ecos do Passado;Rafael Lima;2011;ficcao;1
+345;Caminhos Cruzados;Paula Santos;1991;misterio;1
+346;Vozes Silenciosas;Maria Oliveira;1905;suspense;1
+347;O Livro da Vida;Mariana Ferreira;1945;ficcao;0
+348;O Ultimo Reinado;Bruno Rocha;2006;poesia;0
+349;Vozes Silenciosas;Paula Santos;1963;suspense;0
+350;O Ultimo Reinado;Maria Oliveira;1995;poesia;1
+351;Caminhos Cruzados;Paula Santos;1972;autoajuda;1
+352;Caminhos Cruzados;Bruno Rocha;2017;romance;1
+353;Ventos de Mudanca;Rafael Lima;1922;misterio;0
+354;A Jornada Sem Fim;Ana Costa;1965;historia;0
+355;Horizontes Distantes;Bruno Rocha;1987;drama;1
+356;Ventos de Mudanca;Paula Santos;1992;historia;0
+357;Ventos de Mudanca;Rafael Lima;1970;aventura;1
+358;O Ultimo Reinado;Bruno Rocha;1953;ficcao;1
+359;Ecos do Passado;Ana Costa;1939;epico;1
+360;O Ultimo Reinado;Pedro Almeida;1981;suspense;1
+361;Entre Sombras;Maria Oliveira;1986;suspense;0
+362;Ecos do Passado;Camila Pinto;1986;poesia;0
+363;Entre Sombras;Rafael Lima;2016;historia;0
+364;Entre Sombras;Maria Oliveira;1962;historia;1
+365;Ecos do Passado;Camila Pinto;1919;historia;1
+366;Vozes Silenciosas;Maria Oliveira;1973;poesia;1
+367;A Jornada Sem Fim;Maria Oliveira;1924;epico;1
+368;A Jornada Sem Fim;Mariana Ferreira;1974;ficcao;0
+369;A Jornada Sem Fim;Bruno Rocha;2012;autoajuda;1
+370;Misterios da Noite;Maria Oliveira;1953;suspense;1
+371;Ecos do Passado;Mariana Ferreira;1985;epico;1
+372;Ecos do Passado;Carlos Souza;2014;ficcao;1
+373;O Ultimo Reinado;Rafael Lima;1970;historia;0
+374;Misterios da Noite;Mariana Ferreira;1911;aventura;0
+375;Vozes Silenciosas;Maria Oliveira;1978;historia;1
+376;Misterios da Noite;Joao Silva;1961;suspense;0
+377;Vozes Silenciosas;Rafael Lima;1937;aventura;0
+378;O Ultimo Reinado;Mariana Ferreira;2012;historia;1
+379;O Ultimo Reinado;Carlos Souza;2003;misterio;0
+380;Horizontes Distantes;Joao Silva;1928;poesia;0
+381;Misterios da Noite;Joao Silva;1989;drama;0
+382;O Ultimo Reinado;Joao Silva;1902;historia;1
+383;Ventos de Mudanca;Carlos Souza;1932;misterio;0
+384;Ventos de Mudanca;Maria Oliveira;1906;poesia;0
+385;Ventos de Mudanca;Maria Oliveira;1923;aventura;1
+386;Ventos de Mudanca;Ana Costa;1922;drama;0
+387;Caminhos Cruzados;Camila Pinto;1985;romance;0
+388;A Jornada Sem Fim;Pedro Almeida;1912;ficcao;1
+389;O Ultimo Reinado;Rafael Lima;1906;suspense;0
+390;O Ultimo Reinado;Mariana Ferreira;1984;romance;1
+391;Misterios da Noite;Camila Pinto;1953;misterio;1
+392;O Livro da Vida;Carlos Souza;1999;aventura;0
+393;Misterios da Noite;Camila Pinto;2010;drama;0
+394;Entre Sombras;Rafael Lima;2011;ficcao;1
+395;A Jornada Sem Fim;Rafael Lima;1992;suspense;1
+396;Ventos de Mudanca;Ana Costa;1942;suspense;1
+397;O Ultimo Reinado;Ana Costa;1964;historia;1
+398;O Livro da Vida;Paula Santos;1994;suspense;1
+399;Misterios da Noite;Bruno Rocha;1972;poesia;1
+400;Vozes Silenciosas;Paula Santos;1950;aventura;1
+401;O Livro da Vida;Paula Santos;1969;ficcao;1
+402;Ventos de Mudanca;Paula Santos;1982;ficcao;0
+403;Misterios da Noite;Paula Santos;2005;epico;1
+404;Horizontes Distantes;Bruno Rocha;2010;ficcao;1
+405;Entre Sombras;Joao Silva;1981;autoajuda;1
+406;O Livro da Vida;Camila Pinto;1914;epico;1
+407;Ventos de Mudanca;Carlos Souza;1941;drama;0
+408;Horizontes Distantes;Camila Pinto;2014;romance;1
+409;O Livro da Vida;Camila Pinto;1967;romance;1
+410;Misterios da Noite;Pedro Almeida;1932;aventura;0
+411;O Livro da Vida;Mariana Ferreira;2003;romance;1
+412;Vozes Silenciosas;Pedro Almeida;1991;autoajuda;1
+413;Vozes Silenciosas;Paula Santos;1988;ficcao;0
+414;Misterios da Noite;Pedro Almeida;1900;aventura;0
+415;Caminhos Cruzados;Ana Costa;1994;poesia;1
+416;Ecos do Passado;Maria Oliveira;1977;autoajuda;0
+417;Ventos de Mudanca;Camila Pinto;1959;aventura;1
+418;Ecos do Passado;Maria Oliveira;1949;romance;1
+419;Horizontes Distantes;Paula Santos;1994;autoajuda;0
+420;O Livro da Vida;Camila Pinto;1904;drama;1
+421;Vozes Silenciosas;Joao Silva;1975;historia;0
+422;A Jornada Sem Fim;Joao Silva;1903;autoajuda;0
+423;Ventos de Mudanca;Mariana Ferreira;2003;aventura;0
+424;Horizontes Distantes;Rafael Lima;1957;ficcao;0
+425;Ventos de Mudanca;Bruno Rocha;1962;misterio;1
+426;O Livro da Vida;Ana Costa;1900;poesia;0
+427;Horizontes Distantes;Joao Silva;2005;aventura;0
+428;O Ultimo Reinado;Carlos Souza;1982;autoajuda;0
+429;A Jornada Sem Fim;Camila Pinto;1976;ficcao;1
+430;Ecos do Passado;Rafael Lima;1959;epico;1
+431;O Ultimo Reinado;Pedro Almeida;1957;misterio;1
+432;Caminhos Cruzados;Mariana Ferreira;1931;romance;0
+433;Caminhos Cruzados;Pedro Almeida;1913;drama;1
+434;A Jornada Sem Fim;Mariana Ferreira;1948;poesia;0
+435;O Ultimo Reinado;Rafael Lima;1980;drama;1
+436;Horizontes Distantes;Bruno Rocha;1969;drama;0
+437;Misterios da Noite;Camila Pinto;1926;historia;1
+438;Caminhos Cruzados;Ana Costa;1975;romance;1
+439;Misterios da Noite;Rafael Lima;1972;aventura;1
+440;Caminhos Cruzados;Ana Costa;1903;autoajuda;1
+441;Vozes Silenciosas;Rafael Lima;1931;drama;0
+442;Ventos de Mudanca;Rafael Lima;1967;drama;0
+443;Misterios da Noite;Maria Oliveira;1933;ficcao;0
+444;Ecos do Passado;Ana Costa;1908;aventura;0
+445;Horizontes Distantes;Joao Silva;1931;poesia;1
+446;A Jornada Sem Fim;Pedro Almeida;1969;aventura;1
+447;Misterios da Noite;Maria Oliveira;1991;autoajuda;0
+448;A Jornada Sem Fim;Bruno Rocha;1912;drama;0
+449;O Livro da Vida;Paula Santos;1903;aventura;0
+450;Horizontes Distantes;Paula Santos;1960;aventura;0
+451;O Livro da Vida;Joao Silva;1904;ficcao;1
+452;Horizontes Distantes;Paula Santos;2004;historia;1
+453;Caminhos Cruzados;Pedro Almeida;2006;poesia;1
+454;Ecos do Passado;Camila Pinto;1961;autoajuda;0
+455;Caminhos Cruzados;Rafael Lima;2007;ficcao;1
+456;Caminhos Cruzados;Bruno Rocha;1983;historia;1
+457;Entre Sombras;Joao Silva;1913;ficcao;1
+458;Ecos do Passado;Paula Santos;1911;drama;1
+459;Misterios da Noite;Paula Santos;1915;ficcao;1
+460;Misterios da Noite;Pedro Almeida;1995;drama;1
+461;Caminhos Cruzados;Paula Santos;1998;romance;1
+462;O Livro da Vida;Pedro Almeida;1953;romance;1
+463;Vozes Silenciosas;Mariana Ferreira;1964;drama;0
+464;Entre Sombras;Camila Pinto;1992;suspense;0
+465;Misterios da Noite;Mariana Ferreira;1984;drama;1
+466;A Jornada Sem Fim;Paula Santos;1956;misterio;1
+467;Vozes Silenciosas;Mariana Ferreira;1935;drama;0
+468;Misterios da Noite;Rafael Lima;1912;misterio;0
+469;Ventos de Mudanca;Paula Santos;1981;suspense;1
+470;Caminhos Cruzados;Joao Silva;1981;misterio;0
+471;O Ultimo Reinado;Carlos Souza;1960;suspense;0
+472;Entre Sombras;Carlos Souza;1922;misterio;0
+473;Ecos do Passado;Ana Costa;1999;drama;0
+474;Ecos do Passado;Pedro Almeida;1999;aventura;0
+475;O Ultimo Reinado;Maria Oliveira;1939;suspense;1
+476;Ecos do Passado;Bruno Rocha;1945;aventura;1
+477;Ventos de Mudanca;Carlos Souza;1967;ficcao;0
+478;Misterios da Noite;Camila Pinto;2000;romance;0
+479;Caminhos Cruzados;Maria Oliveira;1946;autoajuda;0
+480;Ventos de Mudanca;Mariana Ferreira;1963;epico;0
+481;O Livro da Vida;Rafael Lima;1987;aventura;1
+482;O Ultimo Reinado;Mariana Ferreira;2009;ficcao;1
+483;Caminhos Cruzados;Maria Oliveira;1986;historia;0
+484;Entre Sombras;Joao Silva;1971;ficcao;0
+485;O Ultimo Reinado;Mariana Ferreira;1982;romance;1
+486;Ventos de Mudanca;Bruno Rocha;2010;poesia;1
+487;Ventos de Mudanca;Camila Pinto;1958;poesia;0
+488;Misterios da Noite;Ana Costa;2020;aventura;0
+489;Horizontes Distantes;Joao Silva;1929;poesia;1
+490;Vozes Silenciosas;Joao Silva;1969;misterio;1
+491;O Ultimo Reinado;Carlos Souza;1904;drama;0
+492;O Ultimo Reinado;Ana Costa;1979;poesia;1
+493;Caminhos Cruzados;Pedro Almeida;1994;poesia;1
+494;Vozes Silenciosas;Joao Silva;1937;historia;1
+495;O Ultimo Reinado;Paula Santos;1991;suspense;1
+496;Ventos de Mudanca;Maria Oliveira;1968;epico;0
+497;Ecos do Passado;Camila Pinto;1988;ficcao;1
+498;Horizontes Distantes;Joao Silva;1992;aventura;1
+499;Ventos de Mudanca;Paula Santos;2005;suspense;1
+500;O Livro da Vida;Ana Costa;2002;drama;1
+501;Ecos do Passado;Pedro Almeida;1990;drama;1
+502;Vozes Silenciosas;Camila Pinto;1934;autoajuda;0
+503;O Ultimo Reinado;Camila Pinto;1986;misterio;1
+504;Horizontes Distantes;Ana Costa;1979;historia;0
+505;Caminhos Cruzados;Carlos Souza;1999;epico;1
+506;Ventos de Mudanca;Joao Silva;1942;romance;1
+507;Horizontes Distantes;Pedro Almeida;1988;ficcao;1
+508;Misterios da Noite;Joao Silva;1984;poesia;0
+509;Entre Sombras;Bruno Rocha;1939;ficcao;0
+510;Vozes Silenciosas;Paula Santos;2015;poesia;0
+511;O Ultimo Reinado;Mariana Ferreira;2010;romance;0
+512;Vozes Silenciosas;Maria Oliveira;1924;suspense;0
+513;A Jornada Sem Fim;Carlos Souza;1992;suspense;0
+514;O Livro da Vida;Rafael Lima;1913;aventura;1
+515;Ventos de Mudanca;Maria Oliveira;1986;romance;0
+516;Misterios da Noite;Camila Pinto;1967;misterio;0
+517;A Jornada Sem Fim;Bruno Rocha;1994;aventura;0
+518;Misterios da Noite;Camila Pinto;1993;drama;1
+519;Ventos de Mudanca;Rafael Lima;1927;aventura;1
+520;Vozes Silenciosas;Maria Oliveira;1918;drama;1
+521;Caminhos Cruzados;Paula Santos;1989;autoajuda;1
+522;Entre Sombras;Joao Silva;2001;autoajuda;0
+523;Caminhos Cruzados;Camila Pinto;1934;aventura;1
+524;A Jornada Sem Fim;Bruno Rocha;1970;romance;0
+525;O Ultimo Reinado;Maria Oliveira;1910;aventura;1
+526;Entre Sombras;Pedro Almeida;1973;misterio;1
+527;O Livro da Vida;Mariana Ferreira;1905;autoajuda;1
+528;O Livro da Vida;Rafael Lima;1914;ficcao;0
+529;Horizontes Distantes;Bruno Rocha;1900;romance;0
+530;O Ultimo Reinado;Pedro Almeida;1908;historia;0
+531;Vozes Silenciosas;Rafael Lima;1901;misterio;1
+532;Ventos de Mudanca;Bruno Rocha;1975;suspense;0
+533;Vozes Silenciosas;Mariana Ferreira;1935;drama;0
+534;Vozes Silenciosas;Paula Santos;2015;poesia;0
+535;Entre Sombras;Mariana Ferreira;1900;misterio;1
+536;Vozes Silenciosas;Maria Oliveira;1973;historia;0
+537;Caminhos Cruzados;Joao Silva;1908;historia;0
+538;Vozes Silenciosas;Carlos Souza;2012;romance;1
+539;Ventos de Mudanca;Maria Oliveira;1907;poesia;1
+540;Horizontes Distantes;Mariana Ferreira;1972;suspense;1
+541;O Ultimo Reinado;Mariana Ferreira;1960;epico;0
+542;Ventos de Mudanca;Mariana Ferreira;1957;autoajuda;1
+543;Caminhos Cruzados;Paula Santos;1994;historia;0
+544;Vozes Silenciosas;Paula Santos;1940;romance;0
+545;Ecos do Passado;Mariana Ferreira;1975;autoajuda;0
+546;Horizontes Distantes;Rafael Lima;1933;poesia;1
+547;Misterios da Noite;Rafael Lima;1904;aventura;0
+548;Caminhos Cruzados;Maria Oliveira;1992;poesia;0
+549;Ventos de Mudanca;Ana Costa;1951;poesia;1
+550;Caminhos Cruzados;Joao Silva;2002;ficcao;1
+551;Entre Sombras;Mariana Ferreira;1939;epico;0
+552;Ventos de Mudanca;Maria Oliveira;1955;suspense;0
+553;Ecos do Passado;Paula Santos;1985;romance;0
+554;Caminhos Cruzados;Maria Oliveira;1925;autoajuda;1
+555;Caminhos Cruzados;Camila Pinto;1946;suspense;1
+556;O Livro da Vida;Carlos Souza;1986;autoajuda;0
+557;O Livro da Vida;Joao Silva;1960;misterio;0
+558;Horizontes Distantes;Pedro Almeida;1934;historia;0
+559;Horizontes Distantes;Joao Silva;2002;aventura;1
+560;O Livro da Vida;Joao Silva;1917;aventura;0
+561;O Livro da Vida;Paula Santos;1993;historia;0
+562;Ecos do Passado;Mariana Ferreira;1903;ficcao;0
+563;Entre Sombras;Rafael Lima;1907;autoajuda;1
+564;Entre Sombras;Rafael Lima;1987;epico;0
+565;Vozes Silenciosas;Ana Costa;1936;epico;0
+566;A Jornada Sem Fim;Rafael Lima;1905;poesia;0
+567;Ventos de Mudanca;Camila Pinto;1994;misterio;0
+568;Vozes Silenciosas;Maria Oliveira;1986;misterio;1
+569;Misterios da Noite;Bruno Rocha;1901;ficcao;1
+570;A Jornada Sem Fim;Bruno Rocha;1959;suspense;0
+571;Entre Sombras;Camila Pinto;1974;autoajuda;1
+572;O Livro da Vida;Camila Pinto;1998;ficcao;0
+573;Caminhos Cruzados;Paula Santos;2018;romance;1
+574;Misterios da Noite;Paula Santos;1912;ficcao;1
+575;Horizontes Distantes;Ana Costa;1927;poesia;0
+576;Ecos do Passado;Camila Pinto;1929;epico;1
+577;O Livro da Vida;Camila Pinto;1916;ficcao;1
+578;Entre Sombras;Bruno Rocha;1912;poesia;1
+579;Ecos do Passado;Carlos Souza;1906;poesia;0
+580;Ventos de Mudanca;Paula Santos;1937;epico;0
+581;A Jornada Sem Fim;Bruno Rocha;1937;romance;1
+582;O Ultimo Reinado;Carlos Souza;1934;drama;1
+583;O Livro da Vida;Bruno Rocha;2017;ficcao;1
+584;O Ultimo Reinado;Pedro Almeida;1966;poesia;0
+585;Misterios da Noite;Rafael Lima;1982;historia;0
+586;Vozes Silenciosas;Camila Pinto;1902;aventura;0
+587;Caminhos Cruzados;Maria Oliveira;2003;misterio;1
+588;A Jornada Sem Fim;Mariana Ferreira;1959;drama;0
+589;Entre Sombras;Bruno Rocha;2013;misterio;0
+590;O Livro da Vida;Pedro Almeida;1969;epico;1
+591;Vozes Silenciosas;Pedro Almeida;1944;drama;0
+592;Vozes Silenciosas;Carlos Souza;1949;drama;0
+593;Vozes Silenciosas;Paula Santos;1924;misterio;0
+594;O Livro da Vida;Joao Silva;1994;ficcao;0
+595;Ventos de Mudanca;Rafael Lima;2013;suspense;0
+596;Ecos do Passado;Maria Oliveira;1950;suspense;1
+597;Caminhos Cruzados;Camila Pinto;1945;romance;1
+598;Ventos de Mudanca;Maria Oliveira;1983;misterio;1
+599;O Ultimo Reinado;Maria Oliveira;1961;autoajuda;1
+600;Vozes Silenciosas;Camila Pinto;1942;romance;0
+601;Ventos de Mudanca;Paula Santos;1985;historia;0
+602;A Jornada Sem Fim;Maria Oliveira;1969;suspense;0
+603;Ventos de Mudanca;Joao Silva;1940;drama;1
+604;Misterios da Noite;Paula Santos;1908;epico;0
+605;O Livro da Vida;Ana Costa;1926;drama;1
+606;A Jornada Sem Fim;Bruno Rocha;2002;aventura;0
+607;Vozes Silenciosas;Camila Pinto;1989;autoajuda;1
+608;Vozes Silenciosas;Joao Silva;1980;misterio;1
+609;O Livro da Vida;Pedro Almeida;1947;poesia;1
+610;Ecos do Passado;Ana Costa;1920;autoajuda;0
+611;Vozes Silenciosas;Ana Costa;1934;romance;1
+612;Entre Sombras;Camila Pinto;1950;suspense;1
+613;Caminhos Cruzados;Maria Oliveira;1946;aventura;0
+614;O Ultimo Reinado;Camila Pinto;1929;suspense;0
+615;Vozes Silenciosas;Mariana Ferreira;1989;drama;1
+616;Entre Sombras;Rafael Lima;1979;poesia;0
+617;Horizontes Distantes;Maria Oliveira;1976;historia;1
+618;O Livro da Vida;Pedro Almeida;1967;ficcao;1
+619;Entre Sombras;Camila Pinto;1904;romance;1
+620;Entre Sombras;Maria Oliveira;2001;ficcao;1
+621;O Livro da Vida;Pedro Almeida;2010;drama;0
+622;Ecos do Passado;Joao Silva;2008;epico;0
+623;O Livro da Vida;Rafael Lima;1910;historia;0
+624;Vozes Silenciosas;Bruno Rocha;1977;misterio;0
+625;Misterios da Noite;Carlos Souza;1936;autoajuda;0
+626;Misterios da Noite;Mariana Ferreira;1916;drama;1
+627;Horizontes Distantes;Rafael Lima;2001;aventura;0
+628;Horizontes Distantes;Pedro Almeida;1929;romance;1
+629;Horizontes Distantes;Rafael Lima;1930;poesia;1
+630;Horizontes Distantes;Ana Costa;1942;epico;0
+631;O Ultimo Reinado;Maria Oliveira;1913;romance;1
+632;Ventos de Mudanca;Camila Pinto;1988;aventura;1
+633;Entre Sombras;Maria Oliveira;1909;historia;0
+634;Horizontes Distantes;Bruno Rocha;1983;autoajuda;0
+635;O Ultimo Reinado;Ana Costa;2000;epico;1
+636;O Livro da Vida;Rafael Lima;1909;historia;1
+637;A Jornada Sem Fim;Joao Silva;2017;suspense;1
+638;Ventos de Mudanca;Bruno Rocha;1935;poesia;0
+639;Entre Sombras;Paula Santos;1910;misterio;1
+640;Ecos do Passado;Paula Santos;1935;epico;0
+641;A Jornada Sem Fim;Camila Pinto;1951;aventura;1
+642;O Ultimo Reinado;Carlos Souza;1982;poesia;1
+643;Caminhos Cruzados;Rafael Lima;1938;suspense;0
+644;Vozes Silenciosas;Mariana Ferreira;1902;drama;0
+645;Horizontes Distantes;Camila Pinto;1921;drama;0
+646;O Ultimo Reinado;Pedro Almeida;1999;poesia;0
+647;A Jornada Sem Fim;Camila Pinto;2011;aventura;1
+648;Ventos de Mudanca;Camila Pinto;1993;drama;0
+649;Misterios da Noite;Maria Oliveira;2020;drama;1
+650;Ventos de Mudanca;Rafael Lima;1934;epico;1
+651;Horizontes Distantes;Ana Costa;1951;poesia;0
+652;Misterios da Noite;Mariana Ferreira;1939;ficcao;1
+653;Misterios da Noite;Ana Costa;2001;suspense;1
+654;Entre Sombras;Ana Costa;2004;drama;1
+655;Horizontes Distantes;Joao Silva;1990;misterio;0
+656;O Ultimo Reinado;Pedro Almeida;1990;aventura;1
+657;Misterios da Noite;Camila Pinto;1991;ficcao;1
+658;Vozes Silenciosas;Carlos Souza;1968;autoajuda;1
+659;Entre Sombras;Bruno Rocha;1952;ficcao;1
+660;Ecos do Passado;Maria Oliveira;2007;misterio;1
+661;Vozes Silenciosas;Pedro Almeida;1975;poesia;0
+662;O Livro da Vida;Bruno Rocha;2004;poesia;0
+663;Misterios da Noite;Rafael Lima;1903;drama;1
+664;Ecos do Passado;Rafael Lima;1917;romance;1
+665;Ecos do Passado;Pedro Almeida;1916;epico;1
+666;O Livro da Vida;Paula Santos;1999;autoajuda;1
+667;Vozes Silenciosas;Mariana Ferreira;1992;poesia;0
+668;Ecos do Passado;Camila Pinto;1983;epico;0
+669;Horizontes Distantes;Ana Costa;2017;epico;1
+670;Entre Sombras;Mariana Ferreira;1937;aventura;1
+671;Ventos de Mudanca;Pedro Almeida;1908;historia;0
+672;A Jornada Sem Fim;Paula Santos;1906;suspense;1
+673;Caminhos Cruzados;Maria Oliveira;1990;aventura;1
+674;Ventos de Mudanca;Maria Oliveira;1955;ficcao;0
+675;Caminhos Cruzados;Rafael Lima;1954;drama;1
+676;Ecos do Passado;Joao Silva;2020;poesia;1
+677;A Jornada Sem Fim;Paula Santos;2013;historia;1
+678;Vozes Silenciosas;Pedro Almeida;1979;romance;0
+679;Entre Sombras;Mariana Ferreira;1906;ficcao;0
+680;A Jornada Sem Fim;Carlos Souza;1915;autoajuda;0
+681;Vozes Silenciosas;Carlos Souza;1965;ficcao;0
+682;Ecos do Passado;Rafael Lima;1923;drama;0
+683;Horizontes Distantes;Camila Pinto;1941;historia;1
+684;O Livro da Vida;Pedro Almeida;1954;aventura;1
+685;Caminhos Cruzados;Camila Pinto;1981;poesia;1
+686;Vozes Silenciosas;Camila Pinto;2015;suspense;0
+687;Caminhos Cruzados;Paula Santos;1941;ficcao;1
+688;Ecos do Passado;Camila Pinto;1914;romance;1
+689;A Jornada Sem Fim;Ana Costa;1955;epico;1
+690;Horizontes Distantes;Pedro Almeida;1983;autoajuda;1
+691;A Jornada Sem Fim;Maria Oliveira;1959;ficcao;1
+692;Horizontes Distantes;Maria Oliveira;1984;romance;1
+693;O Ultimo Reinado;Mariana Ferreira;2000;autoajuda;1
+694;Ventos de Mudanca;Joao Silva;1968;suspense;0
+695;Ventos de Mudanca;Carlos Souza;1966;drama;1
+696;Misterios da Noite;Rafael Lima;1911;suspense;0
+697;O Livro da Vida;Maria Oliveira;1937;ficcao;0
+698;A Jornada Sem Fim;Maria Oliveira;1994;ficcao;1
+699;Ecos do Passado;Camila Pinto;1939;drama;1
+700;O Livro da Vida;Rafael Lima;1994;epico;1
+701;Misterios da Noite;Ana Costa;1989;historia;0
+702;Ventos de Mudanca;Camila Pinto;1952;romance;1
+703;Misterios da Noite;Mariana Ferreira;1978;misterio;0
+704;O Livro da Vida;Ana Costa;1925;historia;0
+705;O Ultimo Reinado;Ana Costa;1956;romance;1
+706;Horizontes Distantes;Pedro Almeida;2020;misterio;0
+707;O Ultimo Reinado;Mariana Ferreira;1905;suspense;1
+708;Horizontes Distantes;Bruno Rocha;1950;poesia;1
+709;Misterios da Noite;Carlos Souza;1903;aventura;0
+710;O Livro da Vida;Paula Santos;1928;suspense;1
+711;O Livro da Vida;Camila Pinto;1944;historia;1
+712;Caminhos Cruzados;Paula Santos;1956;poesia;0
+713;Entre Sombras;Paula Santos;1977;poesia;0
+714;Ventos de Mudanca;Rafael Lima;1976;epico;0
+715;Horizontes Distantes;Carlos Souza;2015;historia;1
+716;Ventos de Mudanca;Mariana Ferreira;2018;misterio;0
+717;O Ultimo Reinado;Pedro Almeida;1959;poesia;0
+718;Entre Sombras;Ana Costa;1982;romance;1
+719;Horizontes Distantes;Maria Oliveira;1982;poesia;0
+720;Ventos de Mudanca;Pedro Almeida;1959;suspense;1
+721;O Livro da Vida;Bruno Rocha;1916;poesia;1
+722;Ecos do Passado;Camila Pinto;1920;autoajuda;1
+723;O Ultimo Reinado;Rafael Lima;2012;ficcao;1
+724;Misterios da Noite;Maria Oliveira;1985;poesia;0
+725;Entre Sombras;Maria Oliveira;1901;historia;0
+726;Horizontes Distantes;Maria Oliveira;1965;romance;0
+727;Horizontes Distantes;Pedro Almeida;1993;aventura;0
+728;O Ultimo Reinado;Pedro Almeida;1919;drama;0
+729;O Ultimo Reinado;Ana Costa;1927;ficcao;0
+730;Ventos de Mudanca;Carlos Souza;1917;aventura;0
+731;A Jornada Sem Fim;Ana Costa;1991;historia;1
+732;A Jornada Sem Fim;Paula Santos;2019;ficcao;0
+733;Ecos do Passado;Mariana Ferreira;1907;aventura;0
+734;Entre Sombras;Paula Santos;1907;aventura;0
+735;Misterios da Noite;Bruno Rocha;1941;ficcao;0
+736;Ecos do Passado;Ana Costa;1939;drama;1
+737;O Ultimo Reinado;Paula Santos;1974;drama;1
+738;O Livro da Vida;Ana Costa;1914;aventura;0
+739;Ecos do Passado;Joao Silva;1959;poesia;0
+740;Ventos de Mudanca;Paula Santos;1954;poesia;1
+741;O Ultimo Reinado;Maria Oliveira;1976;romance;0
+742;O Ultimo Reinado;Paula Santos;1908;epico;0
+743;Misterios da Noite;Bruno Rocha;1950;drama;0
+744;A Jornada Sem Fim;Camila Pinto;1915;ficcao;0
+745;O Livro da Vida;Pedro Almeida;1925;suspense;1
+746;Horizontes Distantes;Maria Oliveira;2017;romance;1
+747;Vozes Silenciosas;Pedro Almeida;1901;misterio;1
+748;Horizontes Distantes;Pedro Almeida;1961;misterio;1
+749;Entre Sombras;Carlos Souza;2013;poesia;1
+750;Ecos do Passado;Bruno Rocha;1931;romance;1
+751;Misterios da Noite;Carlos Souza;1975;poesia;1
+752;Vozes Silenciosas;Bruno Rocha;1951;epico;0
+753;Entre Sombras;Bruno Rocha;1914;romance;0
+754;Vozes Silenciosas;Bruno Rocha;1944;autoajuda;1
+755;Vozes Silenciosas;Mariana Ferreira;1914;misterio;1
+756;Ecos do Passado;Mariana Ferreira;1940;aventura;1
+757;Ecos do Passado;Carlos Souza;1904;autoajuda;0
+758;Misterios da Noite;Mariana Ferreira;2011;epico;1
+759;Horizontes Distantes;Carlos Souza;1978;drama;1
+760;Vozes Silenciosas;Carlos Souza;1986;poesia;1
+761;Entre Sombras;Mariana Ferreira;1918;misterio;1
+762;A Jornada Sem Fim;Rafael Lima;1903;suspense;1
+763;O Ultimo Reinado;Pedro Almeida;1916;autoajuda;0
+764;Ventos de Mudanca;Pedro Almeida;1979;autoajuda;0
+765;Entre Sombras;Pedro Almeida;1973;autoajuda;1
+766;Entre Sombras;Rafael Lima;1912;historia;1
+767;O Livro da Vida;Camila Pinto;2017;suspense;1
+768;O Livro da Vida;Pedro Almeida;1962;drama;0
+769;Misterios da Noite;Maria Oliveira;1982;ficcao;0
+770;Ecos do Passado;Bruno Rocha;1999;ficcao;0
+771;Vozes Silenciosas;Maria Oliveira;1974;poesia;1
+772;O Livro da Vida;Joao Silva;1958;poesia;1
+773;Entre Sombras;Carlos Souza;1932;suspense;0
+774;A Jornada Sem Fim;Ana Costa;2004;romance;1
+775;Horizontes Distantes;Paula Santos;1961;misterio;0
+776;Caminhos Cruzados;Rafael Lima;1926;drama;1
+777;Ventos de Mudanca;Carlos Souza;1939;suspense;0
+778;Entre Sombras;Camila Pinto;1905;epico;1
+779;Ventos de Mudanca;Maria Oliveira;1957;drama;1
+780;Misterios da Noite;Ana Costa;1988;autoajuda;0
+781;Horizontes Distantes;Camila Pinto;1993;drama;0
+782;Vozes Silenciosas;Carlos Souza;1928;ficcao;1
+783;Caminhos Cruzados;Maria Oliveira;1932;aventura;1
+784;Caminhos Cruzados;Pedro Almeida;1994;romance;1
+785;Caminhos Cruzados;Paula Santos;1974;autoajuda;1
+786;Horizontes Distantes;Mariana Ferreira;1967;drama;1
+787;Horizontes Distantes;Joao Silva;2015;poesia;1
+788;Misterios da Noite;Carlos Souza;1986;romance;1
+789;O Ultimo Reinado;Carlos Souza;1965;aventura;0
+790;Vozes Silenciosas;Pedro Almeida;1924;poesia;0
+791;A Jornada Sem Fim;Joao Silva;1940;historia;0
+792;O Ultimo Reinado;Bruno Rocha;2014;epico;1
+793;Vozes Silenciosas;Mariana Ferreira;1901;autoajuda;0
+794;Caminhos Cruzados;Paula Santos;1984;misterio;0
+795;Vozes Silenciosas;Mariana Ferreira;2001;autoajuda;1
+796;Horizontes Distantes;Pedro Almeida;1937;drama;0
+797;O Livro da Vida;Mariana Ferreira;1933;epico;0
+798;Ecos do Passado;Carlos Souza;1967;autoajuda;0
+799;O Livro da Vida;Carlos Souza;2000;suspense;0
+800;Misterios da Noite;Maria Oliveira;1961;aventura;1
+801;Ecos do Passado;Paula Santos;1996;aventura;1
+802;O Ultimo Reinado;Joao Silva;1952;ficcao;1
+803;A Jornada Sem Fim;Paula Santos;1925;misterio;0
+804;Ventos de Mudanca;Joao Silva;2002;historia;0
+805;Vozes Silenciosas;Camila Pinto;1911;historia;1
+806;Ventos de Mudanca;Rafael Lima;1975;drama;1
+807;Ecos do Passado;Mariana Ferreira;1908;autoajuda;0
+808;Entre Sombras;Maria Oliveira;1942;suspense;0
+809;A Jornada Sem Fim;Maria Oliveira;2004;suspense;1
+810;Horizontes Distantes;Camila Pinto;1937;epico;1
+811;Ecos do Passado;Ana Costa;1936;aventura;1
+812;O Livro da Vida;Carlos Souza;1940;historia;0
+813;Misterios da Noite;Rafael Lima;1986;misterio;0
+814;O Livro da Vida;Ana Costa;1945;ficcao;1
+815;O Livro da Vida;Camila Pinto;1985;drama;0
+816;Horizontes Distantes;Rafael Lima;1947;drama;1
+817;Ecos do Passado;Rafael Lima;1970;historia;0
+818;Ecos do Passado;Mariana Ferreira;1903;misterio;1
+819;Misterios da Noite;Paula Santos;1975;epico;0
+820;O Ultimo Reinado;Bruno Rocha;2004;autoajuda;0
+821;Caminhos Cruzados;Ana Costa;1950;aventura;1
+822;Misterios da Noite;Maria Oliveira;1929;ficcao;1
+823;O Livro da Vida;Joao Silva;1965;drama;0
+824;A Jornada Sem Fim;Joao Silva;1909;misterio;0
+825;Entre Sombras;Mariana Ferreira;1978;suspense;1
+826;Caminhos Cruzados;Maria Oliveira;1994;poesia;0
+827;Misterios da Noite;Joao Silva;1994;epico;0
+828;Ventos de Mudanca;Maria Oliveira;2011;poesia;1
+829;Ventos de Mudanca;Pedro Almeida;1978;epico;1
+830;Misterios da Noite;Maria Oliveira;1900;drama;1
+831;A Jornada Sem Fim;Maria Oliveira;1919;suspense;0
+832;Caminhos Cruzados;Rafael Lima;2001;drama;0
+833;Misterios da Noite;Camila Pinto;1909;aventura;0
+834;Ecos do Passado;Ana Costa;2000;epico;0
+835;Caminhos Cruzados;Paula Santos;1962;poesia;0
+836;Entre Sombras;Bruno Rocha;2017;epico;0
+837;Horizontes Distantes;Bruno Rocha;1976;romance;0
+838;A Jornada Sem Fim;Joao Silva;2014;historia;0
+839;Ecos do Passado;Camila Pinto;1914;romance;0
+840;Entre Sombras;Rafael Lima;1957;epico;1
+841;O Livro da Vida;Pedro Almeida;1974;suspense;1
+842;Misterios da Noite;Mariana Ferreira;1993;suspense;1
+843;Horizontes Distantes;Carlos Souza;1919;drama;1
+844;O Livro da Vida;Maria Oliveira;1981;epico;0
+845;O Livro da Vida;Bruno Rocha;1982;epico;1
+846;O Livro da Vida;Pedro Almeida;2014;romance;0
+847;Entre Sombras;Maria Oliveira;1946;ficcao;0
+848;Ventos de Mudanca;Bruno Rocha;1905;epico;0
+849;Caminhos Cruzados;Joao Silva;1989;suspense;0
+850;A Jornada Sem Fim;Mariana Ferreira;1926;suspense;0
+851;O Livro da Vida;Paula Santos;1980;epico;0
+852;Misterios da Noite;Pedro Almeida;1942;misterio;1
+853;O Ultimo Reinado;Pedro Almeida;1974;poesia;0
+854;Caminhos Cruzados;Paula Santos;1944;epico;0
+855;Caminhos Cruzados;Maria Oliveira;1901;historia;0
+856;Misterios da Noite;Bruno Rocha;1999;misterio;1
+857;Ventos de Mudanca;Rafael Lima;1902;drama;1
+858;Horizontes Distantes;Carlos Souza;1968;poesia;1
+859;A Jornada Sem Fim;Paula Santos;1919;aventura;1
+860;Ventos de Mudanca;Mariana Ferreira;1924;autoajuda;0
+861;Horizontes Distantes;Carlos Souza;2016;epico;1
+862;Caminhos Cruzados;Ana Costa;1959;drama;1
+863;Vozes Silenciosas;Pedro Almeida;1973;historia;1
+864;Horizontes Distantes;Paula Santos;1960;misterio;0
+865;A Jornada Sem Fim;Bruno Rocha;1991;epico;1
+866;Caminhos Cruzados;Carlos Souza;1986;misterio;0
+867;O Ultimo Reinado;Mariana Ferreira;1979;suspense;0
+868;O Livro da Vida;Ana Costa;2006;autoajuda;0
+869;O Livro da Vida;Ana Costa;1900;misterio;1
+870;Misterios da Noite;Bruno Rocha;1912;misterio;0
+871;O Livro da Vida;Paula Santos;1997;poesia;0
+872;Ventos de Mudanca;Mariana Ferreira;1960;ficcao;0
+873;Horizontes Distantes;Ana Costa;1956;romance;1
+874;O Livro da Vida;Bruno Rocha;1985;aventura;0
+875;Misterios da Noite;Maria Oliveira;1934;ficcao;0
+876;Caminhos Cruzados;Ana Costa;1942;aventura;0
+877;Vozes Silenciosas;Carlos Souza;1931;poesia;0
+878;Misterios da Noite;Paula Santos;1904;misterio;0
+879;Ecos do Passado;Camila Pinto;2017;romance;0
+880;O Ultimo Reinado;Rafael Lima;1978;ficcao;1
+881;A Jornada Sem Fim;Mariana Ferreira;2009;ficcao;0
+882;Horizontes Distantes;Joao Silva;1918;epico;0
+883;Vozes Silenciosas;Bruno Rocha;2014;romance;1
+884;Entre Sombras;Camila Pinto;2012;misterio;1
+885;Misterios da Noite;Paula Santos;2019;autoajuda;1
+886;Horizontes Distantes;Maria Oliveira;1946;historia;0
+887;Vozes Silenciosas;Joao Silva;1904;romance;1
+888;O Ultimo Reinado;Pedro Almeida;2016;misterio;1
+889;Ecos do Passado;Camila Pinto;1935;drama;1
+890;Entre Sombras;Camila Pinto;1902;historia;0
+891;A Jornada Sem Fim;Carlos Souza;1926;historia;0
+892;Ventos de Mudanca;Rafael Lima;2010;poesia;1
+893;Vozes Silenciosas;Paula Santos;1943;poesia;1
+894;Caminhos Cruzados;Pedro Almeida;1938;misterio;0
+895;Horizontes Distantes;Paula Santos;1986;autoajuda;0
+896;Horizontes Distantes;Joao Silva;1947;drama;0
+897;Misterios da Noite;Mariana Ferreira;1960;epico;1
+898;Vozes Silenciosas;Joao Silva;1959;autoajuda;0
+899;Vozes Silenciosas;Bruno Rocha;2008;poesia;1
+900;Horizontes Distantes;Bruno Rocha;1953;misterio;1
+901;O Ultimo Reinado;Carlos Souza;1930;romance;0
+902;Caminhos Cruzados;Mariana Ferreira;1907;drama;0
+903;Misterios da Noite;Mariana Ferreira;1990;autoajuda;0
+904;Ecos do Passado;Ana Costa;2003;drama;1
+905;Vozes Silenciosas;Ana Costa;2004;ficcao;0
+906;Entre Sombras;Pedro Almeida;1997;drama;1
+907;A Jornada Sem Fim;Pedro Almeida;1928;autoajuda;0
+908;Horizontes Distantes;Carlos Souza;1901;drama;0
+909;A Jornada Sem Fim;Maria Oliveira;1959;ficcao;1
+910;O Ultimo Reinado;Camila Pinto;1961;autoajuda;0
+911;Entre Sombras;Carlos Souza;1949;autoajuda;1
+912;Vozes Silenciosas;Ana Costa;1949;aventura;0
+913;Horizontes Distantes;Carlos Souza;1985;aventura;1
+914;A Jornada Sem Fim;Camila Pinto;1970;romance;1
+915;O Livro da Vida;Camila Pinto;1924;romance;0
+916;Misterios da Noite;Pedro Almeida;1917;historia;0
+917;Ecos do Passado;Pedro Almeida;2010;aventura;0
+918;O Ultimo Reinado;Carlos Souza;1981;misterio;0
+919;O Ultimo Reinado;Pedro Almeida;1949;ficcao;1
+920;O Ultimo Reinado;Camila Pinto;1993;epico;1
+921;Ecos do Passado;Bruno Rocha;1913;suspense;0
+922;Ecos do Passado;Bruno Rocha;1996;autoajuda;0
+923;O Livro da Vida;Pedro Almeida;1976;ficcao;1
+924;Vozes Silenciosas;Camila Pinto;1960;drama;0
+925;Caminhos Cruzados;Pedro Almeida;1939;romance;0
+926;A Jornada Sem Fim;Mariana Ferreira;1978;epico;0
+927;A Jornada Sem Fim;Joao Silva;2006;romance;1
+928;A Jornada Sem Fim;Paula Santos;2006;historia;0
+929;O Ultimo Reinado;Mariana Ferreira;2013;epico;1
+930;Entre Sombras;Ana Costa;1989;drama;0
+931;Horizontes Distantes;Rafael Lima;1903;epico;0
+932;A Jornada Sem Fim;Bruno Rocha;1988;historia;0
+933;O Livro da Vida;Ana Costa;1935;ficcao;0
+934;O Ultimo Reinado;Mariana Ferreira;2007;poesia;0
+935;A Jornada Sem Fim;Camila Pinto;1900;suspense;1
+936;O Livro da Vida;Rafael Lima;2010;aventura;0
+937;A Jornada Sem Fim;Joao Silva;1903;suspense;1
+938;O Ultimo Reinado;Carlos Souza;1912;drama;1
+939;Misterios da Noite;Pedro Almeida;1934;romance;1
+940;O Livro da Vida;Bruno Rocha;2017;aventura;0
+941;A Jornada Sem Fim;Pedro Almeida;2014;drama;1
+942;Ventos de Mudanca;Joao Silva;1999;romance;0
+943;O Ultimo Reinado;Carlos Souza;1981;autoajuda;1
+944;O Livro da Vida;Rafael Lima;2002;historia;1
+945;Ventos de Mudanca;Maria Oliveira;1940;autoajuda;0
+946;Caminhos Cruzados;Rafael Lima;2006;suspense;1
+947;Horizontes Distantes;Mariana Ferreira;1981;autoajuda;1
+948;Caminhos Cruzados;Mariana Ferreira;1991;misterio;0
+949;Vozes Silenciosas;Rafael Lima;2005;historia;1
+950;O Livro da Vida;Paula Santos;1916;poesia;0
+951;O Ultimo Reinado;Rafael Lima;2017;epico;0
+952;Horizontes Distantes;Maria Oliveira;2014;drama;0
+953;Misterios da Noite;Maria Oliveira;1999;ficcao;1
+954;O Ultimo Reinado;Camila Pinto;2012;epico;1
+955;A Jornada Sem Fim;Joao Silva;2000;historia;0
+956;Vozes Silenciosas;Carlos Souza;1990;misterio;1
+957;Ventos de Mudanca;Rafael Lima;2015;drama;1
+958;Vozes Silenciosas;Pedro Almeida;1989;drama;0
+959;A Jornada Sem Fim;Pedro Almeida;1901;historia;0
+960;O Ultimo Reinado;Camila Pinto;1988;poesia;1
+961;Vozes Silenciosas;Pedro Almeida;1904;romance;0
+962;Caminhos Cruzados;Rafael Lima;1989;aventura;1
+963;Ventos de Mudanca;Joao Silva;1952;poesia;1
+964;Entre Sombras;Carlos Souza;1990;misterio;0
+965;A Jornada Sem Fim;Ana Costa;1977;ficcao;1
+966;Ecos do Passado;Rafael Lima;1919;romance;1
+967;A Jornada Sem Fim;Paula Santos;1931;romance;1
+968;Vozes Silenciosas;Ana Costa;1941;aventura;0
+969;A Jornada Sem Fim;Bruno Rocha;1947;historia;0
+970;Ventos de Mudanca;Mariana Ferreira;1913;aventura;1
+971;O Ultimo Reinado;Paula Santos;2018;aventura;1
+972;Horizontes Distantes;Carlos Souza;1922;ficcao;1
+973;O Livro da Vida;Maria Oliveira;1904;romance;1
+974;Vozes Silenciosas;Bruno Rocha;2008;historia;0
+975;Vozes Silenciosas;Pedro Almeida;1953;ficcao;1
+976;A Jornada Sem Fim;Camila Pinto;1915;suspense;0
+977;O Ultimo Reinado;Pedro Almeida;1924;historia;1
+978;Vozes Silenciosas;Bruno Rocha;2013;historia;0
+979;Ventos de Mudanca;Paula Santos;1998;autoajuda;0
+980;Vozes Silenciosas;Carlos Souza;1988;epico;0
+981;Horizontes Distantes;Camila Pinto;1936;drama;1
+982;Horizontes Distantes;Mariana Ferreira;2019;misterio;0
+983;Misterios da Noite;Ana Costa;1948;historia;1
+984;A Jornada Sem Fim;Rafael Lima;1941;historia;1
+985;O Livro da Vida;Paula Santos;1968;aventura;1
+986;Misterios da Noite;Carlos Souza;1909;suspense;0
+987;Horizontes Distantes;Mariana Ferreira;1908;aventura;1
+988;Ecos do Passado;Paula Santos;1932;epico;0
+989;O Ultimo Reinado;Paula Santos;1927;epico;0
+990;Entre Sombras;Pedro Almeida;1927;epico;0
+991;Ventos de Mudanca;Rafael Lima;1953;romance;1
+992;Ventos de Mudanca;Mariana Ferreira;1993;misterio;0
+993;Ventos de Mudanca;Rafael Lima;1933;autoajuda;0
+994;Vozes Silenciosas;Mariana Ferreira;2010;aventura;0
+995;O Ultimo Reinado;Camila Pinto;1971;misterio;1
+996;Vozes Silenciosas;Pedro Almeida;1953;suspense;0
+997;Misterios da Noite;Pedro Almeida;1916;ficcao;0
+998;Ventos de Mudanca;Rafael Lima;1961;aventura;0
+999;Caminhos Cruzados;Pedro Almeida;1980;suspense;0
+1000;Ventos de Mudanca;Joao Silva;1969;suspense;0
