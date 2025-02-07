@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define TABLE_SIZE 101 // Tamanho da tabela hash
+// Tamanho da tabela hash : 1759 é um numero primo, o fator de carga para mil livros ficaria f = 1000/1759 = 0.56
+// Um fato de carga abaixo de 0.7 eh ideal para uma busca rapida.
+// Com o tamanho sendo 1759, a aplicacao suporta ate aproximadamente 1300 livros, onde o fator de carga chega a 0.7.
+#define TABLE_SIZE 1759 
 
 // Definição da estrutura Livro
 typedef struct Livro {
